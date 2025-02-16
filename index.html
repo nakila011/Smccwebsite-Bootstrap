@@ -4,229 +4,252 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMCC Website</title>
-    <link rel="icon" type="image/png" href="smcc logo.jpg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
+    <link rel="icon" type="image/png" href="image/smcc logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body >
 
 
-</nav>
-   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark shadow">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="smcc logo.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
-          </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="mynavbar">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link"href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About SMCC</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#courses">Courses Offered</a>
-          </li>
-         
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact Us</a>
-          </li>
-
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="text" placeholder="Search">
-          <button class="btn btn-primary" type="button">Search</button>
-        </form>
-      </div>
+            <img src="image/smcc logo.jpg" alt="SMCC Logo" style="width:40px;" class="rounded-pill"> SMCC
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            <form class="d-flex ms-3">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+        </div>
     </div>
-  </nav>
+</nav>
 
+<section class="mt-4 p-5 bg-secondary rounded container-fluid container text-center " id="home">
+    <h2>Welcome to Saint Michael College of Caraga</h2>
+    <p>Providing quality education for future leaders and professionals.</p>
+
+    <div id="aboutCarousel0" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#aboutCarousel0" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#aboutCarousel0" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#aboutCarousel0" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active"><img src="image/smcc logo.jpg" class="d-block w-100 img-fluid rounded"></div>
+            <div class="carousel-item"><img src="image/smcc.jpg" class="d-block w-100 img-fluid rounded"></div>
+            <div class="carousel-item"><img src="image/smcc1.jpg" class="d-block w-100 img-fluid rounded"></div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel0" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel0" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
+
+
+<section class="mt-4 p-5 bg-secondary rounded container-fluid container" id="about">
+    <h2 class="text-center" >About SMCC</h2>
+    <p>Saint Michael College of Caraga (SMCC) is dedicated to fostering academic excellence and character development in students.</p>
+
+ 
+    <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active"><img src="image/vmgo.webp" class="d-block w-100 img-fluid rounded"></div>
+            <div class="carousel-item"><img src="image/core-values.webp" class="d-block w-100 img-fluid rounded"></div>
+            <div class="carousel-item"><img src="image/quality-policy.webp" class="d-block w-100 img-fluid rounded"></div>
+            <div class="carousel-item"><img src="image/socotec-logo.webp" class="d-block w-100 img-fluid rounded"></div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
+
+
+<section class="mt-4 p-5 bg-secondary rounded container-fluid container" id="courses">
+    <h2 class="text-center">Courses Offered</h2>
+    <p class="text-center">SMCC offers various undergraduate and technical programs in multiple disciplines.</p>
+
+    <div id="aboutCarousel1" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#aboutCarousel1" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#aboutCarousel1" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#aboutCarousel1" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#aboutCarousel1" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#aboutCarousel1" data-bs-slide-to="4"></button>
+          <button type="button" data-bs-target="#aboutCarousel1" data-bs-slide-to="5"></button>
+      </div>
+
+      <div class="carousel-inner">
+          
+        <div class="carousel-item active"><img src="image/cthm.webp" class="d-block w-100 img-fluid rounded">
+          <div>
+            <img class="img-fluid rounded p-3 m-3" src="image/cthm (1).webp" alt="">
+            <h3>College of Tourism and Hospitality Management</h3>
+            <ul>
+                <li> BSHM
+                  Bachelor of Science in Hospitality Management</li> 
+                <li>BSTM
+                  Bachelor of Science in Tourism Management</li> 
+                <li>DHMT
+                  Diploma in Hospitality Management Technology</li> 
+                <li>DTMT
+                  Diploma in Tourism Management Technology <br>Food and Beverage Services NC II <br>Housekeeping NC II <br> Ship's Catering Services NC I
+                 </li> 
+              
+                  </li>
+            </ul>       
+                      
+          </div>    
+        </div>
+
+          <div class="carousel-item"><img src="image/cte.webp" class="d-block w-100 img-fluid rounded">
+          <div>
+            <img class="img-fluid rounded p-3 m-3" src="image/cte1.webp" alt="">
+            <h3>College of Teacher Education</h3>
+            <ul>
+                <li>BEEd Bachelor of Elementary Education</li> 
+                <li>BSEd English Bachelor of Secondary Education major in English</li> 
+                <li>BSEd Science Bachelor of Secondary Education major in Science</li> 
+                <li>BSEd Soc Stud Bachelor of Secondary Education major in Social Studies</li> 
+                <li>BPEd Bachelor of Physical Education</li> 
+                <li>BTVTE Bachelor of Technical Vocational Teacher Education</li> 
+                <li>BECEd Bachelor of Early Childhood Education
+                  </li>
+            </ul>       
+
+          </div>
+          </div>
+
+          <div class="carousel-item"><img src="image/ccje.webp" class="d-block w-100 img-fluid 
+          rounded">
+          <div>
+            <img class="img-fluid rounded p-3 m-3" src="image/ccje (1).webp" alt="">
+            <h3>College of Criminal Justice Education</h3>
+            <ul>
+                <li>
+                  BSCrim
+                  Bachelor of Science in Criminology</li> 
+            </ul>    
       
-</article>
-  <hr>
-   
-  <article id="courses">    
-    <div class="container">
-    <h2>Saint Michael College Of Caraga/Courses and Bundled Programs</h2>
-    <figure>
-        <img src="smcc.jpg" alt="Picture1" height="200">
-        <figcaption style="font-weight: bold;">SMCC</figcaption>
-    </figure>   
-       <p>Saint Michael College of Caraga (SMCC) offers a diverse range of academic programs across various levels and disciplines.</p>
-          <br>
-         <p>
-        <h4>Courses available in Saint Michael College of Caraga (SMCC):</h4><b></b> <br>
 
-         <b>Teacher Education:</b> <br>
-         <ul>
-            <li>Bachelor of Elementary Education</li>
-            <li>Bachelor of Secondary Education</li>
-        </ul>
-        <br><br>
+          </div>
+          </div>
+
+          <div class="carousel-item"><img src="image/ccis.webp" class="d-block w-100 img-fluid rounded">
+          <div>
+            <img class="img-fluid rounded p-3 m-3" src="image/ccis1.webp" alt="">
+            <h3>College of Computing and Information Science</h3>
+            <ul>
+                <li>BSIT
+                  Bachelor of Science in Information Technology</li> 
+                <li>
+                  BSCS
+                  Bachelor of Science in Computer Science</li> 
+                <li>BLIS
+                  Bachelor of Library and Information Science</li> 
+                <li>
+                  BSIS
+                  Bachelor of Science in Information System</li> 
+                <li>DIT
+                  Diploma In Information Technology</li> 
+                     
+            </ul>       
+
+
+          </div>        
+          </div>
+          <div class="carousel-item"><img src="image/cbm.webp" class="d-block w-100 img-fluid 
+          rounded">
+          <div>
+            <img class="img-fluid rounded p-3 m-3" src="image/cbm (1).webp" alt="">
+            <h3>College of Business and Management</h3>
         
-         <b>Tourism, Hospitality, and Culinary: <br></b> 
-         <ul>
-            <li>Bachelor of Science in Hotel and Restaurant Management </li>
-            <li>Bachelor of Science in Tourism Management</li>
-        </ul>       
-        <br><br>
-        
-        <b>Information Technology and Computing: <br></b>
-        <ul> 
-            <li>Bachelor of Science in Computer Science </li> 
-            <li>Bachelor of Science in Information Technology</li>  
-        </ul>
-         <br><br>
-        
-        <b>Business Administration and Commerce: <br></b> 
-        <ul>
-            <li>Bachelor of Science in Business Administration</li>
-        </ul>
-        <br><br>
-  
-        <b>Arts and Sciences: <br></b> 
-        <ul>
-            <li>Bachelor of Arts in English Language</li>
-        </ul>
-        <br><br>
+            <ul>
+                <li>BSBA - FM
+                  Bachelor of Science in Business Administration major in Financial Management</li> 
+                <li>BSBA - HRM
+                  Bachelor of Science in Business Administration major in Human Resource Management</li> 
+                <li>BSBA - MM
+                  Bachelor of Science in Business Administration major in Marketing Management</li> 
+                <li>BPA
+                  Bachelor of Public Administration</li> 
+                <li>BSE
+                  Bachelor of Science in Entreprenuership</li> 
+            </ul>       
 
-        <b>Criminal Justice Education: <br></b> 
-          <ul>
-            <li>Bachelor of Science in Criminology</li>
-          </ul>
-        </p>
-        <br>
-        <br>
-        <br>
-        <p><b><h4>Technical and Vocational Programs:</h4></b><br>
+          </div>
+         
+          </div>
+          <div class="carousel-item"><img src="image/cas.webp" class="d-block w-100 img-fluid rounded">
+           <div>
+            <img class="img-fluid rounded p-3 m-3" src="image/cas (1).webp" alt="">
+            <h3>College of Arts and Sciences</h3>
+            <ul>
+                <li>AB English
+                  Bachelor of Arts major in English Language</li> 
+            </ul>    
+           </div>
+          </div>
+      </div>
 
-        <b>Hotel and Restaurant Technology: <br></b> 
-        <ul>
-            <li> Bundled qualifications in Housekeeping NC II and Food and Beverage Services NC II</li>
-        </ul>
-       <br><br>
-
-        <b>Information Technology:<br></b> 
-        <ul>
-            <li>Bundled qualifications in Computer Hardware Servicing NC II and Computer Programming NC IV</li>
-        </ul>
-        <br><br>
-
-        <b>Computer Electronics:</b><br>
-        <ul>
-            <li>Computer Electronics Servicing NC II</li>
-        </ul>
-            
-        </p>
-         <br>
-         <br>
-         <br> 
-         <p><b><h4>TESDA-Accredited Short Courses:</h4></b> <br>
-
-       <b>Business Administration and Commerce:</b><br> 
-       <ul>
-        <li>Food and Beverage Services NC II </li>
-        <li> Ship's Catering Services NC I </li>
-        <li> Housekeeping NC II</li>
-       </ul>      
-       <br>  
-        </p>
-        <p> These programs are designed to equip students with the necessary skills and knowledge to excel in their chosen fields.
-        </p>
-
-</div>    
-
-</article>
-<hr>
-
-<article id="services">    
-    <div class="container">
-    <h2>Saint Michael College Of Caraga/Services</h2>
-    <figure>
-        <img src="smcc.jpg" alt="Picture1" height="200">
-        <figcaption style="font-weight: bold;">SMCC</figcaption>
-    </figure>   
-       <p>
-        Saint Michael College of Caraga (SMCC) offers a variety of services to support the academic and personal development of its students:
-       </p>
-
-        <p>
-        <b>Student Affairs and Services:</b><br>
-        The Office of Student Affairs and Services (OSAS) is dedicated to promoting awareness and advocacy on important matters related to student life. They organize programs and activities designed to assist students in achieving their academic and personal goals. 
-        </p>
-
-        <p>
-            <b>Learning Resource Center:</b><br>
-            SMCC's Learning Resource Center (LRC) provides access to a wide range of educational materials to support students' research and learning needs. The LRC aims to be a comprehensive library and information environment that underpins the institution's educational, research, and extension endeavors.
-            </p>
-         <p>
-            <b>Student Portal:</b><br>
-            The college offers an online Student Portal where students can access academic information, course materials, and other resources essential for their studies. Guidance on how to access and utilize the portal is available to ensure students can effectively navigate the platform. 
-            </p>
-
-</div>    
-
-  
-</article>
-<hr>
-
-<article id="contact">    
-    <div class="container">
-    <h2>Saint Michael College Of Caraga/Contact Us</h2>
-    <figure>
-        <img src="smcc.jpg" alt="Picture1" height="200">
-        <figcaption style="font-weight: bold;">SMCC</figcaption>
-    </figure>   
-       <p>
-        For inquiries or further information, you can reach Saint Michael College of Caraga (SMCC) through the following contact details:
-       </p>
-        <br>
-        <ul>
-            <p> 
-              <b>
-                <li>Address: C. Atupan Street, Nasipit, 8602 Agusan del Norte, Philippines.</li>
-                <li>Telephone: (085) 343-3251 / 283-3113</li>
-                <li>Mobile: 0916 339 5168</li>
-                <li>Email: smccnasipit1948@gmail.com</li>
-                <li>Official Website: www.smccnasipit.edu.ph</li>
-                <li>Facebook Page: SMCCNasipitOfficial</li>
-              </b>
-            </p> 
-        </ul>
-          <br>
-          <p>
-            For specific concerns, such as academic records or enrollment, you may contact the Registrar's Office at:
-          </p>
-
-             <ul>
-                <p>
-                  <b>
-                    <li>Mobile: 0917 707 6630</li>
-                    <li>Landline: (085) 300-2932</li>
-                  </b>
-                </p>
-             </ul>
-              <br>
-             <p>
-                These contact details are provided to assist you in reaching the appropriate department for your needs.
-             </p>
+      <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel1" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+      </button>
+  </div>
+</section>
 
 
-</div>    
+<section class="mt-4 p-5 bg-secondary rounded container-fluid container" id="services">
+    <h2 class="text-center">Our Services</h2>
+    <h4>Health Services</h4>
+    <p>Medical consultations, wellness monitoring, and first-aid treatment.</p>
 
-</article>
-<hr>
+    <h4>Guidance Services</h4>
+    <p>Student support services include counseling, career guidance, and placement services.</p>
+</section>
 
+
+<section class="mt-4 p-5 bg-secondary rounded container-fluid container" id="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <ul class="list-group text-center">
+        <li class="list-group-item"><b>Address:</b> C. Atupan Street, Nasipit, Agusan del Norte</li>
+        <li class="list-group-item"><b>Phone:</b> (085) 343-3251 / 283-3113</li>
+        <li class="list-group-item"><b>Mobile:</b> 0916 339 5168</li>
+        <li class="list-group-item"><b>Email:</b> smccnasipit1948@gmail.com</li>
+        <li class="list-group-item"><b>Website:</b> <a href="http://www.smccnasipit.edu.ph" target="_blank">www.smccnasipit.edu.ph</a></li>
+    </ul>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
